@@ -1,0 +1,54 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require grails
+*= require main
+*= require mobile
+*= require_self
+*/
+.odd {
+    background: #f7f7f7;
+}
+.even {
+    background: #fff;
+}
+.help-block {
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 45%;
+}
+.alert-info {
+    color: red;
+    text-align: center;
+    margin: 1em auto 1.5em auto;
+    width: 40%;
+}
+#payment-errors {
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+label {
+    margin-left: 45%;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"] {
+    margin-bottom: 0.5em;
+}
+
+label {
+    width: 12em;
+}
+
+button {
+    margin-left: 60em;
+}
